@@ -33,7 +33,7 @@ DATABASES['default'] = dj_database_url.config(conn_max_age=600)
 SECRET_KEY = 'ztlwf4ntimb%_-wiq@)(2%&q=a0d+au26a1iindub!&imznq@6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
